@@ -190,10 +190,10 @@ module Teacher1819ApplicationConstants
     principal_approval: YES_NO,
     schedule_confirmed: YES_NO,
     diversity_recruitment: YES_NO,
-    free_lunch_percent: [0, 5],
-    underrepresented_minority_percent: [0, 5],
-    wont_replace_existing_course: [0, 5],
-    taught_in_past: [0, 2],
-    csp_ap_exam: [0, 2]
+    free_lunch_percent: [5, 0],
+    underrepresented_minority_percent: [5, 0],
+    wont_replace_existing_course: [5, 0],
+    taught_in_past: [2, 0],
+    csp_ap_exam: [2, 0]
   }
 end
